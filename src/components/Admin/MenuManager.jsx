@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Plus, Search, Edit3, Trash2, Users, Flame, Award, Sparkles, Check, X, Tag } from 'lucide-react';
 import { VegBadge } from '../Common/VegBadge';
 import { DishFormModal } from './DishFormModal';
-import { api } from '../../services/api';
+import { api, getImageUrl } from '../../services/api';
 
 export const MenuManager = ({ dishes, categories, onRefreshMenu }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -179,7 +179,7 @@ export const MenuManager = ({ dishes, categories, onRefreshMenu }) => {
                   <div className="w-14 h-14 rounded-xl bg-stone-100 border border-stone-200 overflow-hidden shrink-0 relative">
                     {dish.image ? (
                       <img
-                        src={dish.image}
+                        src={getImageUrl(dish.image)}
                         alt={dish.name}
                         className="w-full h-full object-cover"
                         onError={(e) => {
@@ -322,7 +322,7 @@ export const MenuManager = ({ dishes, categories, onRefreshMenu }) => {
                           <div className="w-12 h-12 rounded-xl bg-stone-100 border border-stone-200 overflow-hidden shrink-0 relative">
                             {dish.image ? (
                               <img
-                                src={dish.image}
+                                src={getImageUrl(dish.image)}
                                 alt={dish.name}
                                 className="w-full h-full object-cover"
                                 onError={(e) => {

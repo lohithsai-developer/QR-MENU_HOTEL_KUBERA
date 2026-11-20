@@ -2,6 +2,7 @@ import React from 'react';
 import { X, Plus, Minus, Clock, Users, Flame, Award, Sparkles, ChefHat } from 'lucide-react';
 import { VegBadge } from '../Common/VegBadge';
 import { useCart } from '../../context/CartContext';
+import { getImageUrl } from '../../services/api';
 
 export const DishDetailsModal = ({ isOpen, onClose, dish }) => {
   const { cartItems, addToCart, updateQuantity } = useCart();
@@ -10,7 +11,7 @@ export const DishDetailsModal = ({ isOpen, onClose, dish }) => {
 
   const cartItem = cartItems.find((i) => i.id === dish.id);
   const quantity = cartItem ? cartItem.quantity : 0;
-  const imageUrl = dish.image || null;
+  const imageUrl = getImageUrl(dish.image);
 
   // Process all tags
   const tagsList = Array.isArray(dish.tags) ? [...dish.tags] : [];

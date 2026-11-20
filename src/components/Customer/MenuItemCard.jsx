@@ -3,6 +3,7 @@ import { Plus, Minus, Users, Flame, Award, Sparkles, ChevronRight, Info } from '
 import { VegBadge } from '../Common/VegBadge';
 import { DishDetailsModal } from './DishDetailsModal';
 import { useCart } from '../../context/CartContext';
+import { getImageUrl } from '../../services/api';
 
 export const MenuItemCard = ({ dish }) => {
   const { cartItems, addToCart, updateQuantity } = useCart();
@@ -13,7 +14,7 @@ export const MenuItemCard = ({ dish }) => {
   const cartItem = cartItems.find((i) => i.id === dish.id);
   const quantity = cartItem ? cartItem.quantity : 0;
 
-  const imageUrl = dish.image || null;
+  const imageUrl = getImageUrl(dish.image);
 
   // Extract a single clean primary tag to avoid visual clutter
   const rawTags = Array.isArray(dish.tags) ? dish.tags.map(t => String(t).toLowerCase()) : [];
