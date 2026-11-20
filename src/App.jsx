@@ -42,28 +42,35 @@ export function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [vegFilter, setVegFilter] = useState(''); // '' | 'true' | 'false'
   const [isLoadingMenu, setIsLoadingMenu] = useState(true);
+  const [loadError, setLoadError] = useState(null);
 
   // Pending orders count for admin badge
   const [pendingOrdersCount, setPendingOrdersCount] = useState(0);
 
   // Load menu items & categories from API
-  const loadMenu = async () => {
+  const loadMenu = async (isRetry = false) => {
     try {
       setIsLoadingMenu(true);
+      setLoadError(null);
       // Fetch all items matching dietary & search filters so all categories are available in single-page orderly scroll
       const [menuRes, catRes] = await Promise.all([
         api.getMenu({ category: 'All', isVeg: vegFilter, search: searchQuery }),
         api.getCategories()
       ]);
 
-      if (menuRes.success && menuRes.data) {
+      if (menuRes && menuRes.data) {
         setDishes(menuRes.data);
       }
-      if (catRes.success && catRes.data) {
+      if (catRes && catRes.data) {
         setCategories(catRes.data);
       }
     } catch (err) {
       console.error('Failed to load menu data:', err);
+      if (!isRetry) {
+        setTimeout(() => loadMenu(true), 2500);
+      } else {
+        setLoadError('Cloud server is waking up. Please tap to retry.');
+      }
     } finally {
       setIsLoadingMenu(false);
     }
@@ -290,6 +297,21 @@ export function App() {
               <div className="py-20 text-center space-y-3">
                 <div className="w-7 h-7 mx-auto border-2 border-kubera-burgundy border-t-transparent rounded-full animate-spin" />
                 <p className="text-xs text-slate-500 font-medium">Loading Hotel Kubera Menu...</p>
+              </div>
+            ) : loadError && dishes.length === 0 ? (
+              <div className="py-12 px-4 text-center bg-white border border-amber-200/90 rounded-2xl space-y-3 shadow-xs max-w-md mx-auto">
+                <div className="text-3xl">🍲</div>
+                <h4 className="text-sm sm:text-base font-bold text-slate-900">Connecting to Hotel Kubera</h4>
+                <p className="text-xs text-slate-500">
+                  {loadError}
+                </p>
+                <button
+                  type="button"
+                  onClick={() => loadMenu(true)}
+                  className="px-4 py-2 rounded-xl bg-kubera-burgundy hover:bg-kubera-maroon text-white text-xs font-bold shadow-xs transition-colors"
+                >
+                  🔄 Tap to Reload Menu
+                </button>
               </div>
             ) : dishes.length === 0 ? (
               <div className="py-14 text-center bg-white border border-stone-200 rounded-2xl space-y-2 shadow-2xs">
