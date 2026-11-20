@@ -1,0 +1,526 @@
+{
+  "menuItems": [
+    {
+      "id": "dish-1794911686035-t8to",
+      "name": "Godavari Peethala Vepudu (Crab Roast)",
+      "description": "Fresh blue swimmer crabs pan-tossed in traditional fiery Andhra spices, crushed peppercorns and curry leaves.",
+      "price": 490,
+      "category": "Andhra Specials",
+      "isVeg": false,
+      "spiceLevel": "Spicy",
+      "image": "data:image/jpeg;base64,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",
+      "isAvailable": true,
+      "isChefSpecial": true,
+      "preparationTime": "15-20 mins",
+      "tags": [
+        "Bestseller",
+        "Chef Special",
+        "dffd"
+      ],
+      "createdAt": "2026-11-17T10:34:46.035Z",
+      "updatedAt": "2026-11-20T05:57:20.550Z",
+      "servingSize": "Serves 1-2"
+    },
+    {
+      "id": "kub-001",
+      "name": "Kubera Special Chicken Dum Biryani",
+      "description": "Slow-cooked fragrant aged Basmati rice layered with succulent marinated chicken, saffron, browned onions and traditional royal spices. Served with Mirchi Ka Salan and Raita.",
+      "price": 380,
+      "category": "Biryanis & Pulaos",
+      "isVeg": false,
+      "spiceLevel": "Spicy",
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "isChefSpecial": true,
+      "preparationTime": "20-25 mins",
+      "tags": [
+        "Chef Signature",
+        "Bestseller"
+      ],
+      "servingSize": "Serves 1-2",
+      "updatedAt": "2026-11-20T05:50:38.840Z"
+    },
+    {
+      "id": "kub-002",
+      "name": "Eluru Royyala Vepudu (Prawn Fry)",
+      "description": "Fresh Godavari freshwater prawns pan-roasted with crushed shallots, curry leaves, green chillies, and Godavari stone-ground masala.",
+      "price": 420,
+      "category": "Andhra Specials",
+      "isVeg": false,
+      "spiceLevel": "Spicy",
+      "image": "https://images.unsplash.com/photo-1559742811-822873691df8?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "isChefSpecial": true,
+      "preparationTime": "15-20 mins",
+      "tags": [
+        "Local Specialty",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "kub-003",
+      "name": "Gongura Mamsam (Mutton)",
+      "description": "Tender young lamb chunks simmered in a tangy red sorrel (gongura) leaf gravy infused with garlic, coriander and dry red chillies.",
+      "price": 450,
+      "category": "Andhra Specials",
+      "isVeg": false,
+      "spiceLevel": "Spicy",
+      "image": "https://images.unsplash.com/photo-1545247181-516773cae754?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "isChefSpecial": true,
+      "preparationTime": "20-25 mins",
+      "tags": [
+        "Andhra Classic"
+      ]
+    },
+    {
+      "id": "kub-005",
+      "name": "Murgh Malai Kebab",
+      "description": "Melt-in-the-mouth chicken supreme morsels steeped in rich cashew paste, cardamom cream, and melted cheese, char-grilled to perfection.",
+      "price": 360,
+      "category": "Starters & Tikkas",
+      "isVeg": false,
+      "spiceLevel": "Mild",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "isChefSpecial": false,
+      "preparationTime": "15-20 mins",
+      "tags": [
+        "Mild",
+        "Creamy"
+      ]
+    },
+    {
+      "id": "kub-006",
+      "name": "Crispy Apollo Fish",
+      "description": "Boneless cubes of fresh Korameenu fish tossed with hot green chillies, curry leaves, cracked black pepper, and garlic yogurt emulsion.",
+      "price": 390,
+      "category": "Starters & Tikkas",
+      "isVeg": false,
+      "spiceLevel": "Spicy",
+      "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "isChefSpecial": true,
+      "preparationTime": "15 mins",
+      "tags": [
+        "Bestseller"
+      ]
+    },
+    {
+      "id": "kub-007",
+      "name": "Kaju Paneer Kurma",
+      "description": "Silky paneer cubes and whole golden cashews simmered in an indulgent onion-tomato gravy finished with fresh cream and kasoori methi.",
+      "price": 340,
+      "category": "Main Course",
+      "isVeg": true,
+      "spiceLevel": "Medium",
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "isChefSpecial": false,
+      "preparationTime": "15-20 mins",
+      "tags": [
+        "Vegetarian Luxury"
+      ]
+    },
+    {
+      "id": "kub-008",
+      "name": "Butter Chicken Delhi Style",
+      "description": "Charred tandoori chicken cooked in an iconic, velvety tomato-butter gravy scented with green cardamom, honey and fenugreek.",
+      "price": 380,
+      "category": "Main Course",
+      "isVeg": false,
+      "spiceLevel": "Mild",
+      "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "isChefSpecial": false,
+      "preparationTime": "15-20 mins",
+      "tags": [
+        "Classic"
+      ]
+    },
+    {
+      "id": "kubera-009",
+      "name": "Dal Makhani Kubera Shahi",
+      "description": "Whole black lentils and kidney beans slow-simmered overnight over charcoal embers, enriched with farm butter and clotted cream.",
+      "price": 280,
+      "category": "Main Course",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "isChefSpecial": false,
+      "preparationTime": "10-15 mins",
+      "tags": [
+        "Vegetarian"
+      ]
+    },
+    {
+      "id": "kub-010",
+      "name": "Ulavacharu Veg Dum Biryani",
+      "description": "Basmati rice infused with traditional horsegram soup (Ulavacharu), farm-fresh vegetables, and caramelized shallots.",
+      "price": 320,
+      "category": "Biryanis & Pulaos",
+      "isVeg": true,
+      "spiceLevel": "Spicy",
+      "image": "https://images.unsplash.com/photo-1642821373181-696a54913e9a?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "isChefSpecial": true,
+      "preparationTime": "20 mins",
+      "tags": [
+        "Andhra Pride"
+      ]
+    },
+    {
+      "id": "kub-011",
+      "name": "Andhra Miriyala Rasam Soup",
+      "description": "Fiery and revitalizing herbal broth brewed with crushed Tellicherry black peppercorns, roasted cumin, garlic, and fresh country tomatoes.",
+      "price": 140,
+      "category": "Soups",
+      "isVeg": true,
+      "spiceLevel": "Spicy",
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "isChefSpecial": false,
+      "preparationTime": "10 mins",
+      "tags": [
+        "Immunity Booster"
+      ]
+    },
+    {
+      "id": "kub-012",
+      "name": "Butter Garlic Naan",
+      "description": "Crisp yet pillowy leavened tandoor flatbread brushed with garlic butter and fresh coriander leaves.",
+      "price": 75,
+      "category": "Breads",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "isChefSpecial": false,
+      "preparationTime": "8 mins",
+      "tags": [
+        "Tandoor"
+      ]
+    },
+    {
+      "id": "kub-013",
+      "name": "Kubera Apricot Delight",
+      "description": "The crowned dessert of royalty: layers of stewed Turkish apricots, smooth vanilla custard, heavy cream, and toasted almond slivers.",
+      "price": 220,
+      "category": "Desserts",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "isChefSpecial": true,
+      "preparationTime": "5 mins",
+      "tags": [
+        "Signature Dessert"
+      ]
+    },
+    {
+      "id": "kub-014",
+      "name": "Traditional South Indian Filter Coffee",
+      "description": "Decoction made from dark roast chicory-blended beans frothed with boiling thick buffalo milk in traditional brass dabarah.",
+      "price": 80,
+      "category": "Beverages",
+      "isVeg": true,
+      "spiceLevel": "Mild",
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": true,
+      "isChefSpecial": false,
+      "preparationTime": "5 mins",
+      "tags": [
+        "Hot"
+      ],
+      "updatedAt": "2026-11-20T05:49:55.781Z"
+    },
+    {
+      "id": "kub-015",
+      "name": "Spiced Masala Majjiga (Buttermilk)",
+      "description": "Chilled churned curd seasoned with ginger, green chillies, crushed curry leaves, asafoetida, and rock salt.",
+      "price": 70,
+      "category": "Beverages",
+      "isVeg": true,
+      "spiceLevel": "Medium",
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=800&auto=format&fit=crop&q=80",
+      "isAvailable": false,
+      "isChefSpecial": false,
+      "preparationTime": "5 mins",
+      "tags": [
+        "Refreshing"
+      ],
+      "updatedAt": "2026-11-20T05:32:09.264Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Starters",
+      "icon": "🍢",
+      "description": "Crispy appetizers & bites"
+    },
+    {
+      "id": "cat-2",
+      "name": "Tikkas",
+      "icon": "🍛",
+      "description": "Charcoal-grilled kebabs & tikkas",
+      "updatedAt": "2026-11-20T05:10:33.649Z"
+    },
+    {
+      "id": "cat-3",
+      "name": "Andhra Specials",
+      "icon": "🌶️",
+      "description": "Authentic fiery Godavari delicacies"
+    },
+    {
+      "id": "cat-4",
+      "name": "Biryanis & Pulaos",
+      "icon": "🍚",
+      "description": "Aromatic slow-cooked dum biryanis"
+    },
+    {
+      "id": "cat-5",
+      "name": "Main Course",
+      "icon": "🍛",
+      "description": "Rich gravies & royal curries"
+    },
+    {
+      "id": "cat-6",
+      "name": "Soups",
+      "icon": "🥣",
+      "description": "Warming broths & herbal rasams"
+    },
+    {
+      "id": "cat-7",
+      "name": "Breads",
+      "icon": "🫓",
+      "description": "Tandoori naans, rotis & parottas"
+    },
+    {
+      "id": "cat-8",
+      "name": "Desserts",
+      "icon": "🍨",
+      "description": "Traditional royal sweets & kulfi"
+    },
+    {
+      "id": "cat-9",
+      "name": "Beverages",
+      "icon": "☕",
+      "description": "Authentic filter coffee & coolers"
+    },
+    {
+      "id": "cat-1795153141092",
+      "name": "casca",
+      "icon": "🫓",
+      "description": "",
+      "displayOrder": 10,
+      "createdAt": "2026-11-20T05:39:01.092Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1795153918169",
+      "orderNumber": "KUB-9954",
+      "customerName": "Guest",
+      "customerPhone": "",
+      "tableNumber": "Dine-In Guest",
+      "items": [
+        {
+          "menuItemId": "kub-002",
+          "name": "Eluru Royyala Vepudu (Prawn Fry)",
+          "price": 420,
+          "quantity": 1,
+          "isVeg": false,
+          "specialInstructions": ""
+        }
+      ],
+      "subtotal": 420,
+      "tax": 21,
+      "totalAmount": 441,
+      "customerNotes": "[WAITER CALL FOR ORDER]: Ready to order",
+      "status": "pending",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-11-20T05:51:58.169Z"
+    },
+    {
+      "id": "ord-1795153917874",
+      "orderNumber": "KUB-2038",
+      "customerName": "Guest",
+      "customerPhone": "",
+      "tableNumber": "Dine-In Guest",
+      "items": [
+        {
+          "menuItemId": "kub-002",
+          "name": "Eluru Royyala Vepudu (Prawn Fry)",
+          "price": 420,
+          "quantity": 1,
+          "isVeg": false,
+          "specialInstructions": ""
+        }
+      ],
+      "subtotal": 420,
+      "tax": 21,
+      "totalAmount": 441,
+      "customerNotes": "[WAITER CALL FOR ORDER]: Ready to order",
+      "status": "pending",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-11-20T05:51:57.874Z"
+    },
+    {
+      "id": "ord-1795153912893",
+      "orderNumber": "KUB-1594",
+      "customerName": "Guest",
+      "customerPhone": "",
+      "tableNumber": "Dine-In Guest",
+      "items": [
+        {
+          "menuItemId": "kub-002",
+          "name": "Eluru Royyala Vepudu (Prawn Fry)",
+          "price": 420,
+          "quantity": 1,
+          "isVeg": false,
+          "specialInstructions": ""
+        }
+      ],
+      "subtotal": 420,
+      "tax": 21,
+      "totalAmount": 441,
+      "customerNotes": "[WAITER CALL FOR ORDER]: Ready to order",
+      "status": "pending",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-11-20T05:51:52.893Z"
+    },
+    {
+      "id": "ord-1795153902800",
+      "orderNumber": "KUB-7355",
+      "customerName": "Guest",
+      "customerPhone": "",
+      "tableNumber": "Dine-In Guest",
+      "items": [
+        {
+          "menuItemId": "kub-002",
+          "name": "Eluru Royyala Vepudu (Prawn Fry)",
+          "price": 420,
+          "quantity": 1,
+          "isVeg": false,
+          "specialInstructions": ""
+        }
+      ],
+      "subtotal": 420,
+      "tax": 21,
+      "totalAmount": 441,
+      "customerNotes": "[WAITER CALL FOR ORDER]: Ready to order",
+      "status": "pending",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-11-20T05:51:42.800Z"
+    },
+    {
+      "id": "ord-1795153900399",
+      "orderNumber": "KUB-4744",
+      "customerName": "Guest",
+      "customerPhone": "",
+      "tableNumber": "Dine-In Guest",
+      "items": [
+        {
+          "menuItemId": "kub-002",
+          "name": "Eluru Royyala Vepudu (Prawn Fry)",
+          "price": 420,
+          "quantity": 1,
+          "isVeg": false,
+          "specialInstructions": ""
+        }
+      ],
+      "subtotal": 420,
+      "tax": 21,
+      "totalAmount": 441,
+      "customerNotes": "[WAITER CALL FOR ORDER]: Ready to order",
+      "status": "pending",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-11-20T05:51:40.400Z"
+    },
+    {
+      "id": "ord-1795151517713",
+      "orderNumber": "KUB-2448",
+      "customerName": "Guest",
+      "customerPhone": "",
+      "tableNumber": "Dine-In Guest",
+      "items": [
+        {
+          "menuItemId": "kub-004",
+          "name": "Shahi Paneer Tikka Angara",
+          "price": 310,
+          "quantity": 2,
+          "isVeg": true,
+          "specialInstructions": ""
+        }
+      ],
+      "subtotal": 620,
+      "tax": 31,
+      "totalAmount": 651,
+      "customerNotes": "[WAITER CALL FOR ORDER]: Ready to order",
+      "status": "completed",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-11-20T05:11:57.713Z",
+      "updatedAt": "2026-11-20T05:13:39.835Z"
+    },
+    {
+      "id": "ord-1794921034964",
+      "orderNumber": "KUB-1712",
+      "tableNumber": "Dine-In Guest",
+      "customerName": "Guest",
+      "customerPhone": "",
+      "items": [
+        {
+          "menuItemId": "kub-002",
+          "name": "Eluru Royyala Vepudu (Prawn Fry)",
+          "price": 420,
+          "quantity": 2,
+          "isVeg": false,
+          "specialInstructions": ""
+        }
+      ],
+      "subtotal": 840,
+      "tax": 42,
+      "totalAmount": 882,
+      "customerNotes": "[WAITER CALL FOR ORDER]: Ready to order",
+      "status": "completed",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-11-17T13:10:34.964Z",
+      "updatedAt": "2026-11-17T14:08:04.659Z"
+    },
+    {
+      "id": "ord-1794911686034",
+      "orderNumber": "KUB-8815",
+      "tableNumber": "04",
+      "customerName": "Srinivasa Rao",
+      "customerPhone": "9848022334",
+      "items": [
+        {
+          "menuItemId": "kub-001",
+          "name": "Kubera Special Chicken Dum Biryani",
+          "price": 380,
+          "quantity": 2,
+          "isVeg": false
+        },
+        {
+          "menuItemId": "kub-002",
+          "name": "Eluru Royyala Vepudu (Prawn Fry)",
+          "price": 420,
+          "quantity": 1,
+          "isVeg": false
+        }
+      ],
+      "subtotal": 1180,
+      "tax": 59,
+      "totalAmount": 1239,
+      "customerNotes": "Please serve hot with extra sliced onions and lemons.",
+      "status": "completed",
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-11-17T10:34:46.034Z",
+      "updatedAt": "2026-11-17T10:34:46.035Z"
+    }
+  ],
+  "serviceRequests": [],
+  "lastUpdated": "2026-11-20T05:58:41.118Z"
+}

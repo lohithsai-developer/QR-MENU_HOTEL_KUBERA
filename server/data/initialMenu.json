@@ -1,0 +1,282 @@
+[
+  {
+    "id": "kub-001",
+    "name": "Kubera Special Chicken Dum Biryani",
+    "description": "Slow-cooked fragrant aged Basmati rice layered with succulent marinated chicken, saffron, browned onions and traditional royal spices. Served with Mirchi Ka Salan and Raita.",
+    "price": 380,
+    "category": "Biryanis & Pulaos",
+    "isVeg": false,
+    "spiceLevel": "Spicy",
+    "servingSize": "Serves 1-2",
+    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": true,
+    "preparationTime": "20-25 mins",
+    "tags": [
+      "Bestseller",
+      "Recommended"
+    ]
+  },
+  {
+    "id": "kub-002",
+    "name": "Eluru Royyala Vepudu (Prawn Fry)",
+    "description": "Fresh Godavari freshwater prawns pan-roasted with crushed shallots, curry leaves, green chillies, and Godavari stone-ground masala.",
+    "price": 420,
+    "category": "Andhra Specials",
+    "isVeg": false,
+    "spiceLevel": "Spicy",
+    "servingSize": "Serves 1-2",
+    "image": "https://images.unsplash.com/photo-1559742811-822873691df8?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": true,
+    "preparationTime": "15-20 mins",
+    "tags": [
+      "Must Try",
+      "Recommended"
+    ]
+  },
+  {
+    "id": "kub-003",
+    "name": "Gongura Mamsam (Mutton)",
+    "description": "Tender young lamb chunks simmered in a tangy red sorrel (gongura) leaf gravy infused with garlic, coriander and dry red chillies.",
+    "price": 450,
+    "category": "Andhra Specials",
+    "isVeg": false,
+    "spiceLevel": "Spicy",
+    "servingSize": "Serves 1-2",
+    "image": "https://images.unsplash.com/photo-1545247181-516773cae754?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": true,
+    "preparationTime": "20-25 mins",
+    "tags": [
+      "Bestseller",
+      "Chef Special"
+    ]
+  },
+  {
+    "id": "kub-004",
+    "name": "Shahi Paneer Tikka Angara",
+    "description": "Charcoal-grilled cottage cheese cubes marinated in Kashmiri chilli, hung curd, mustard oil, and roasted carom seeds. Garnished with mint chutney.",
+    "price": 310,
+    "category": "Tikkas",
+    "isVeg": true,
+    "spiceLevel": "Medium",
+    "servingSize": "Serves 1-2",
+    "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": false,
+    "preparationTime": "15-18 mins",
+    "tags": [
+      "Recommended",
+      "Must Try"
+    ]
+  },
+  {
+    "id": "kub-005",
+    "name": "Murgh Malai Kebab",
+    "description": "Melt-in-mouth chicken chunks steeped in fresh cream, cream cheese, cardamom and white pepper, grilled gently over clay tandoor.",
+    "price": 360,
+    "category": "Tikkas",
+    "isVeg": false,
+    "spiceLevel": "Mild",
+    "servingSize": "Serves 1-2",
+    "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": false,
+    "preparationTime": "18-20 mins",
+    "tags": [
+      "Recommended"
+    ]
+  },
+  {
+    "id": "kub-006",
+    "name": "Crispy Apollo Fish",
+    "description": "Boneless fish fillets tossed with crushed garlic, green chillies, curry leaves, and a tangy yogurt-spiced glaze.",
+    "price": 390,
+    "category": "Starters",
+    "isVeg": false,
+    "spiceLevel": "Spicy",
+    "servingSize": "Serves 1-2",
+    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": false,
+    "preparationTime": "12-15 mins",
+    "tags": [
+      "Bestseller"
+    ]
+  },
+  {
+    "id": "kub-007",
+    "name": "Kaju Paneer Kurma",
+    "description": "Rich royal gravy made with roasted cashew nut paste, cottage cheese, saffron strands, and aromatic Mughlai spices.",
+    "price": 340,
+    "category": "Main Course",
+    "isVeg": true,
+    "spiceLevel": "Medium",
+    "servingSize": "Serves 2-3",
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": false,
+    "preparationTime": "15-20 mins",
+    "tags": [
+      "Recommended"
+    ]
+  },
+  {
+    "id": "kub-008",
+    "name": "Butter Chicken Delhi Style",
+    "description": "Tandoori-smoked boneless chicken pulled into a luscious slow-simmered tomato, cashew nut, and fenugreek cream sauce.",
+    "price": 370,
+    "category": "Main Course",
+    "isVeg": false,
+    "spiceLevel": "Mild",
+    "servingSize": "Serves 1-2",
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": false,
+    "preparationTime": "15-20 mins",
+    "tags": [
+      "Recommended",
+      "Bestseller"
+    ]
+  },
+  {
+    "id": "kub-009",
+    "name": "Dal Makhani Kubera Shahi",
+    "description": "Black lentils slow-cooked overnight with fresh cream, country butter, and sun-ripened tomatoes on low charcoal heat.",
+    "price": 260,
+    "category": "Main Course",
+    "isVeg": true,
+    "spiceLevel": "Mild",
+    "servingSize": "Serves 2-3",
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": false,
+    "preparationTime": "12-15 mins",
+    "tags": [
+      "Must Try"
+    ]
+  },
+  {
+    "id": "kub-010",
+    "name": "Ulavacharu Veg Dum Biryani",
+    "description": "Authentic Krishna-Godavari horsegram reduction infused with Basmati rice, fresh garden vegetables, mint, and desi ghee.",
+    "price": 310,
+    "category": "Biryanis & Pulaos",
+    "isVeg": true,
+    "spiceLevel": "Spicy",
+    "servingSize": "Serves 1-2",
+    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": true,
+    "preparationTime": "20-25 mins",
+    "tags": [
+      "Bestseller",
+      "Recommended"
+    ]
+  },
+  {
+    "id": "kub-011",
+    "name": "Godavari Peethala Vepudu (Crab Roast)",
+    "description": "Fresh blue swimmer crabs pan-tossed in traditional fiery Andhra spices, crushed peppercorns and curry leaves.",
+    "price": 490,
+    "category": "Andhra Specials",
+    "isVeg": false,
+    "spiceLevel": "Spicy",
+    "servingSize": "Serves 1-2",
+    "image": "https://images.unsplash.com/photo-1559742811-822873691df8?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": true,
+    "preparationTime": "20-25 mins",
+    "tags": [
+      "Must Try",
+      "Chef Special"
+    ]
+  },
+  {
+    "id": "kub-012",
+    "name": "Andhra Miriyala Rasam Soup",
+    "description": "Piping hot peppery tomato broth seasoned with crushed black pepper, garlic, cumin, and tempered curry leaves.",
+    "price": 140,
+    "category": "Soups",
+    "isVeg": true,
+    "spiceLevel": "Spicy",
+    "servingSize": "Serves 1",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": false,
+    "preparationTime": "10 mins",
+    "tags": [
+      "Must Try"
+    ]
+  },
+  {
+    "id": "kub-013",
+    "name": "Butter Garlic Naan",
+    "description": "Clay tandoor leavened flatbread brushed with garlic butter and fresh cilantro.",
+    "price": 75,
+    "category": "Breads",
+    "isVeg": true,
+    "spiceLevel": "Mild",
+    "servingSize": "Serves 1",
+    "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": false,
+    "preparationTime": "8-10 mins",
+    "tags": [
+      "Bestseller"
+    ]
+  },
+  {
+    "id": "kub-014",
+    "name": "Kubera Apricot Delight",
+    "description": "Stewed Iranian dried apricots layered over rich custard, topped with almond slivers and vanilla bean cream.",
+    "price": 190,
+    "category": "Desserts",
+    "isVeg": true,
+    "spiceLevel": "Mild",
+    "servingSize": "Serves 1-2",
+    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": true,
+    "preparationTime": "5 mins",
+    "tags": [
+      "Bestseller",
+      "Must Try"
+    ]
+  },
+  {
+    "id": "kub-015",
+    "name": "Traditional South Indian Filter Coffee",
+    "description": "Chicory-infused freshly brewed decoction blended with hot frothed milk in brass tumbler and davarah.",
+    "price": 65,
+    "category": "Beverages",
+    "isVeg": true,
+    "spiceLevel": "Mild",
+    "servingSize": "Serves 1",
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": false,
+    "preparationTime": "5 mins",
+    "tags": [
+      "Recommended"
+    ]
+  },
+  {
+    "id": "kub-016",
+    "name": "Spiced Masala Majjiga (Buttermilk)",
+    "description": "Churned yogurt cooled with crushed ginger, green chilli, fresh coriander and rock salt.",
+    "price": 55,
+    "category": "Beverages",
+    "isVeg": true,
+    "spiceLevel": "Mild",
+    "servingSize": "Serves 1",
+    "image": "https://images.unsplash.com/photo-1556881286-fc6915169721?w=800&auto=format&fit=crop&q=80",
+    "isAvailable": true,
+    "isChefSpecial": false,
+    "preparationTime": "5 mins",
+    "tags": [
+      "Bestseller"
+    ]
+  }
+]
