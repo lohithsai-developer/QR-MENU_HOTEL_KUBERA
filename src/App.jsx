@@ -212,7 +212,7 @@ export function App() {
               }}
             />
 
-            <main className="flex-1 max-w-7xl w-full mx-auto p-3 sm:p-6">
+            <main className="flex-1 max-w-7xl w-full mx-auto p-3 sm:p-6 pb-24 md:pb-8 overflow-x-hidden">
               {adminTab === 'menu' && (
                 <MenuManager
                   dishes={dishes}

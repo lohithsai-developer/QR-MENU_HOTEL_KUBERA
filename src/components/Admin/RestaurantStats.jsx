@@ -49,7 +49,7 @@ export const RestaurantStats = () => {
   };
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 pb-14 overflow-x-hidden">
       {/* KPI Stats Cards */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
         {/* Total Revenue */}
@@ -138,8 +138,8 @@ export const RestaurantStats = () => {
           </div>
         </div>
 
-        {/* Tables Grid - 4x4 clean floor grid on mobile */}
-        <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 gap-2 sm:gap-3">
+        {/* Tables Grid - Responsive floor grid */}
+        <div className="grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-2.5 sm:gap-3">
           {tables.map((tableNum) => {
             const { status, order } = getTableStatus(tableNum);
 
