@@ -118,33 +118,6 @@ export const AdminNavbar = ({
               </button>
             </div>
           </div>
-
-          {/* Secondary Mobile Horizontal Scrollable Tab Strip */}
-          <div className="md:hidden flex items-center gap-1 mt-2 pt-2 border-t border-stone-100 overflow-x-auto no-scrollbar py-0.5">
-            {tabs.map((tab) => {
-              const Icon = tab.icon;
-              const isActive = activeTab === tab.id;
-              return (
-                <button
-                  key={tab.id}
-                  onClick={() => setActiveTab(tab.id)}
-                  className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all shrink-0 ${
-                    isActive
-                      ? 'bg-kubera-burgundy text-white shadow-2xs'
-                      : 'bg-stone-100 text-slate-600 hover:bg-stone-200/60'
-                  }`}
-                >
-                  <Icon className={`w-3.5 h-3.5 ${isActive ? 'text-amber-200' : 'text-slate-500'}`} />
-                  <span>{tab.label}</span>
-                  {tab.badge && (
-                    <span className="w-4 h-4 rounded-full bg-amber-400 text-slate-900 text-[10px] font-black flex items-center justify-center">
-                      {tab.badge}
-                    </span>
-                  )}
-                </button>
-              );
-            })}
-          </div>
         </div>
       </nav>
 
