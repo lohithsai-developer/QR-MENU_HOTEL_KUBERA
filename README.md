@@ -1,14 +1,14 @@
-# 🏛️ Hotel Kubera (Eluru) - Digital QR Menu & Management System
+﻿# ðŸ›ï¸ Hotel Kubera (Eluru) - Digital QR Menu & Management System
 
-> *"Taste the Wealth of Flavours"* — Authentic Godavari & Multi-Cuisine Dining Experience
+> *"Taste the Wealth of Flavours"* â€” Authentic Godavari & Multi-Cuisine Dining Experience
 
 A modern, production-grade Digital QR Code Menu, Dish Catalog, and Mobile-First Administrative Portal designed specifically for **Hotel Kubera (Eluru)**. Built with a regal light luxury design aesthetic (deep burgundy `#781226`, warm royal gold `#C59B27`, and clean slate cards).
 
 ---
 
-## ✨ Key Features & Architecture
+## âœ¨ Key Features & Architecture
 
-### 1. 📱 Customer Mobile Menu Experience
+### 1. ðŸ“± Customer Mobile Menu Experience
 - **Continuous Single-Page Orderly Scroll:**
   - **Chef's Recommendations & Suggestions:** Highlighted signature dishes at the top for instant discovery.
   - **Category-wise Sections:** Starters, Tikkas, Andhra Specials, Biryanis & Pulaos, Main Course, Soups, Breads, Desserts, and Beverages presented in a clear, scrollable sequence.
@@ -16,8 +16,8 @@ A modern, production-grade Digital QR Code Menu, Dish Catalog, and Mobile-First 
   - Sticky horizontal pill selector with scroll-spy synchronization.
   - Tapping any category pill smoothly scrolls directly to that category section.
 - **Streamlined Minimalist Dish Cards:**
-  - Displays essential details: Food preference indicator (Veg/Non-Veg), Dish Name, Tags (`Bestseller`, `Chef Signature`, `Recommended`), Portion Size (`Serves 1-2`), Price (`₹`), Dish Photo, and `+ ADD` button.
-  - Clean card surface with **"View Details ›"** action.
+  - Displays essential details: Food preference indicator (Veg/Non-Veg), Dish Name, Tags (`Bestseller`, `Chef Signature`, `Recommended`), Portion Size (`Serves 1-2`), Price (`â‚¹`), Dish Photo, and `+ ADD` button.
+  - Clean card surface with **"View Details â€º"** action.
 - **Dish Details Modal:**
   - High-resolution dish photography, spice intensity level, estimated preparation time, portion size, and culinary description.
 - **Filter Controls:**
@@ -27,10 +27,10 @@ A modern, production-grade Digital QR Code Menu, Dish Catalog, and Mobile-First 
   - Floating selection bar tracking selected items with live total and count.
   - Shortlist modal to review selected dishes before ordering with the waiter.
 
-### 2. 🔐 Mobile-First Admin Management Portal (`/login` or via Shield Icon)
+### 2. ðŸ” Mobile-First Admin Management Portal (`/login` or via Shield Icon)
 - **Secure Authentication:** Protected with JWT token authentication and dedicated `/login` interface.
 - **Menu Dishes Manager (CRUD):**
-  - **1-Tap Stock Control:** Toggle dishes between `✓ In Stock` and `✗ Sold Out` with a single tap.
+  - **1-Tap Stock Control:** Toggle dishes between `âœ“ In Stock` and `âœ— Sold Out` with a single tap.
   - **Add / Edit Dishes:** Manage names, descriptions, prices, categories, tags, spice levels, and portions.
   - **Dish Photo Upload:** Upload dish images directly or paste image URLs.
 - **Category Manager:**
@@ -44,7 +44,7 @@ A modern, production-grade Digital QR Code Menu, Dish Catalog, and Mobile-First 
 
 ---
 
-## 🛠️ Technology Stack
+## ðŸ› ï¸ Technology Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -55,7 +55,7 @@ A modern, production-grade Digital QR Code Menu, Dish Catalog, and Mobile-First 
 
 ---
 
-## 🚀 Quick Start & Local Development
+## ðŸš€ Quick Start & Local Development
 
 ### 1. Prerequisites
 - **Node.js** (v18 or higher)
@@ -84,12 +84,12 @@ PORT=5000
 NODE_ENV=development
 
 # MongoDB Atlas Connection URI
-MONGODB_URI=mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.7jvfcli.mongodb.net/hotel_kubera?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://<USERNAME>:<PASSWORD>@<CLUSTER_URL>.mongodb.net/hotel_kubera?retryWrites=true&w=majority
 
 # Admin Credentials
 ADMIN_USERNAME=admin
-ADMIN_PASSWORD=kubera@2026
-JWT_SECRET=kubera_eluru_royal_secret_key_2026
+ADMIN_PASSWORD=your_secure_admin_password
+JWT_SECRET=your_random_jwt_secret_key
 
 # Restaurant Meta
 RESTAURANT_NAME="Hotel Kubera"
@@ -111,7 +111,7 @@ Open:
 
 ---
 
-## 📦 Production Deployment
+## ðŸ“¦ Production Deployment
 
 ### Option A: Deploying on Render / Railway (Full Stack)
 1. Push this repository to GitHub.
@@ -128,5 +128,5 @@ Open:
 
 ---
 
-## 📄 License
-Private & Proprietary — Developed for **Hotel Kubera (Eluru)**.
+## ðŸ“„ License
+Private & Proprietary â€” Developed for **Hotel Kubera (Eluru)**.
