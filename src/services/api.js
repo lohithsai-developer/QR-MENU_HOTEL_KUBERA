@@ -1,12 +1,7 @@
 // API Service for Hotel Kubera
-const PROD_RENDER_URL = 'https://qr-menu-hotel-kubera.onrender.com';
-const isLocalhost = typeof window !== 'undefined' && 
-  (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
-
-const RAW_BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 
-  import.meta.env.VITE_API_URL || 
-  (!isLocalhost ? PROD_RENDER_URL : '');
-
+// In production on Vercel, vercel.json proxies /api and /uploads directly to Render.
+// This ensures 100% first-party same-origin reliability with zero CORS or network block issues.
+const RAW_BACKEND_URL = import.meta.env.VITE_BACKEND_URL || import.meta.env.VITE_API_URL || '';
 export const BACKEND_URL = RAW_BACKEND_URL ? RAW_BACKEND_URL.replace(/\/$/, '') : '';
 const API_BASE = BACKEND_URL ? `${BACKEND_URL}/api` : '/api';
 
@@ -18,7 +13,7 @@ export const getImageUrl = (imagePath) => {
   if (BACKEND_URL) {
     return `${BACKEND_URL}${imagePath.startsWith('/') ? '' : '/'}${imagePath}`;
   }
-  return imagePath;
+  return imagePath.startsWith('/') ? imagePath : `/${imagePath}`;
 };
 
 const getAuthHeaders = () => {
