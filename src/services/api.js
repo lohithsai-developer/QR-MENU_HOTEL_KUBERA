@@ -1,5 +1,12 @@
 // API Service for Hotel Kubera
-const RAW_BACKEND_URL = import.meta.env.VITE_BACKEND_URL || import.meta.env.VITE_API_URL || '';
+const PROD_RENDER_URL = 'https://qr-menu-hotel-kubera.onrender.com';
+const isLocalhost = typeof window !== 'undefined' && 
+  (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+
+const RAW_BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 
+  import.meta.env.VITE_API_URL || 
+  (!isLocalhost ? PROD_RENDER_URL : '');
+
 export const BACKEND_URL = RAW_BACKEND_URL ? RAW_BACKEND_URL.replace(/\/$/, '') : '';
 const API_BASE = BACKEND_URL ? `${BACKEND_URL}/api` : '/api';
 
@@ -183,14 +190,19 @@ export const api = {
 
   // --- Auth ---
   async login(username, password) {
-    const res = await fetch(`${API_BASE}/auth/login`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ username, password })
-    });
-    return res.json();
+    try {
+      const res = await fetch(`${API_BASE}/auth/login`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ username, password })
+      });
+      return await res.json();
+    } catch (err) {
+      console.error('Login error:', err);
+      return { success: false, message: 'Server communication error: ' + err.message };
+    }
   },
 
   async verifyAuth() {
